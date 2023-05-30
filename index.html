@@ -1,0 +1,178 @@
+<html>
+  <head>
+    <title>Tugas Day 9 - Yehezkiel Reynaldi Abraham</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="assets/img/logo.png" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-left">
+        <ul>
+          <li><img src="assets/img/logo.png" alt="Dumbways_logo" /></li>
+          <li class="item-collapse">
+            <a class="active" href="index.html">Home</a>
+          </li>
+          <li class="item-collapse">
+            <a href="my-project.html">My Project</a>
+          </li>
+          <li class="item-collapse">
+            <a href="testimonials.html">Testimonials</a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right item-collapse">
+        <a href="contact.html">Contact Me</a>
+      </div>
+      <div class="nav-right" id="barsmenu">
+        <button
+          style="background-color: transparent; border: none; cursor: pointer"
+          onclick="openHamburger()"
+        >
+          <i class="fa-2x fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+
+    <div class="hamburger-nav-container" id="hamburger-nav-container">
+      <a href="index.html" class="hamburger-active">Home</a>
+      <a href="my-project.html">My Project</a>
+      <a href="testimonials.html">Testimonials</a>
+      <div class="contact-nav">
+        <a
+          href="contact.html"
+          class="contact-navbar"
+          style="
+            color: white;
+            background-color: #111726;
+            height: 10px;
+            width: 90px;
+            border-radius: 7px;
+            text-align: center;
+            margin: auto;
+          "
+          >Contact Me</a
+        >
+      </div>
+    </div>
+
+    <div class="container-card">
+      <section>
+        <div class="left">
+          <h1 id="judul">Hi Welcome to my hut</h1>
+          <p id="caption">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            ullam reiciendis necessitatibus nobis ex nisi maiores laboriosam.
+            Culpa maxime modi pariatur, aliquam odit ipsam quia facere!
+            Inventore cum ex saepe? Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Libero similique dicta dolor est, facilis nam atque repellat
+            voluptatibus possimus, voluptate harum quaerat doloribus natus
+            maxime aliquid, deleniti magni accusamus. Officia.
+          </p>
+
+          <div class="personal">
+            <div class="button-contact">
+              <a
+                href="https://wa.me/6285720085020"
+                style="text-decoration: none"
+              >
+                contact
+              </a>
+            </div>
+            <div>
+              <table class="table-download">
+                <tr>
+                  <div class="container-download">
+                    <td>
+                      <a
+                        class="download-cv"
+                        href="assets/file/Curriculum Vitae Yehezkiel Reynaldi Abraham.pdf"
+                      >
+                        download CV
+
+                        <span
+                          id="icon-download"
+                          class="material-symbols-outlined"
+                        >
+                          download
+                        </span></a
+                      >
+                    </td>
+                  </div>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="social-media">
+            <div class="linkedin">
+              <a
+                href="https://www.linkedin.com/in/yehezkiel-reynaldi-6a5866194"
+              >
+                <i
+                  class="fa-brands fa-linkedin-in fa-xs"
+                  style="color: #ffffff; position: relative; top: 20px"
+                ></i>
+              </a>
+            </div>
+            <div class="instagram">
+              <a href="https://www.instagram.com/yehezkielreynaldi/">
+                <i
+                  class="fa-brands fa-instagram fa-sm"
+                  style="color: #ffffff; position: relative; top: 20px"
+                ></i>
+              </a>
+            </div>
+
+            <div class="facebook">
+              <a href="https://www.facebook.com/yehezkielreynaldi.abraham/">
+                <i
+                  class="fa-brands fa-facebook-f fa-sm"
+                  style="color: #ffffff; position: relative; top: 25px"
+                ></i>
+              </a>
+            </div>
+            <div class="twitter">
+              <a href="https://twitter.com/yehezkielra">
+                <i
+                  class="fa-brands fa-twitter fa-sm"
+                  style="color: #ffffff; position: relative; top: 20px"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="card-saya">
+            <img class="foto-saya" src="assets/img/foto1.jpg" alt="Foto Saya" />
+            <h3 style="text-align: center; margin: 20px 0px 0px 0px">
+              Yehezkiel Reynaldi Abraham
+            </h3>
+            <p
+              style="
+                text-align: center;
+                margin: 0px 0px 20px 0px;
+                padding-bottom: 10px;
+              "
+            >
+              Fullstack Developer
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>
